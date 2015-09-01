@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.ParametersAction>
+      <parameters>
+        <hudson.model.TextParameterValue>
+          <name>foo</name>
+          <description></description>
+          <value>MARGE</value>
+        </hudson.model.TextParameterValue>
+        <hudson.model.TextParameterValue>
+          <name>bar</name>
+          <description></description>
+          <value>HOMER</value>
+        </hudson.model.TextParameterValue>
+      </parameters>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.model.Cause_-UserIdCause/>
+      </causes>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>3</queueId>
+  <timestamp>1441127025551</timestamp>
+  <startTime>1441127025552</startTime>
+  <result>SUCCESS</result>
+  <duration>51</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/Users/Shared/Jenkins/Home/workspace/example-parameterized</workspace>
+  <hudsonVersion>1.627</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>
